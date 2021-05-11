@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  <!---->
+  h2{
+    color: red;
+  }
+  <!--类选择器，修改同一类下的标签-->
+  .b{
+    color: blue;
+  }
+  <!--ID选择器，选择特定对象，ID再当前页面必须唯一-->
+  #a{
+    color: yellow;
+  }
+  <!--交集选择器-->
+  h1,h3{
+    color: green;
+  }
+  <!--并集选择器-->
+  div h2{
+    color: grey;
+  }
+  </style>
+<body>
+<h1>这是h1标题</h1>
+<h2>这是普通选择器h2标题1</h2>
+<h2 class="b">这是类选择器h2标题</h2>
+<h2 id="a">这是ID选择器h2标题</h2>
+<div>
+  <h2>这是并集选择器h2标题</h2>
+</div>
+<h3>这是交集选择器h3标题</h3>
+</body>
+</html>

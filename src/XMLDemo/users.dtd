@@ -1,0 +1,5 @@
+<!ELEMENT users (user*)>
+<!ELEMENT user (username,password,apartment)>//注意有空格
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT apartment (#PCDATA)>
